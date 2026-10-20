@@ -1,0 +1,19 @@
+* text=auto
+
+# Visual Studio and source files keep Windows line endings
+*.sln      text eol=crlf
+*.vcxproj  text eol=crlf
+*.filters  text eol=crlf
+*.cpp      text eol=crlf
+*.h        text eol=crlf
+*.resx     text eol=crlf
+*.manifest text eol=crlf
+*.ps1      text eol=crlf
+
+# Third-party files are stored exactly as supplied
+third_party/** -text
+
+*.drawio text
+*.pdf    binary
+*.dll    binary
+*.a      binary

@@ -1,0 +1,43 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+ipch/
+
+# Build output
+build/
+dist/
+x64/
+Win32/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.tlog
+*.lastbuildstate
+*.log
+*.metagen
+*.resources
+
+# libmpv runtime DLL (121 MB, over GitHub's 100 MB limit; see third_party/mpv/README.md)
+third_party/mpv/bin/*.dll
+
+# draw.io backups and temporary files
+*.bkp
+*.dtmp
+.$*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Local backups
+_backup*/
+_full_backup*/
+*.bak
