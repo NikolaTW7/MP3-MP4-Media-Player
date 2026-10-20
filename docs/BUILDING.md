@@ -12,8 +12,9 @@
 
 1. Clone or copy the repository to any folder. No paths are tied to a particular computer.
 2. Copy `libmpv-2.dll` into `third_party/mpv/bin/`.
-   It comes from the same mpv dev package as the headers (see `third_party/mpv/README.md`).
+   It comes from the same 64-bit mpv dev package as the headers (`mpv-dev-x86_64-*.7z`; see `third_party/mpv/README.md`).
    It is not in Git because it is larger than GitHub's 100 MB file limit.
+   Its licence depends on the build: see `docs/THIRD_PARTY_NOTICES.md`.
 
 ## Build
 
